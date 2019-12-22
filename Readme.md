@@ -130,12 +130,12 @@ This project has met the following specifications:
 * The RNN class has complete __init__, forward , and init_hidden functions.
 * The RNN must include an LSTM or GRU and at least one fully-connected layer. The LSTM/GRU should be correctly initialized, where         relevant.
 * Enough epochs to get near a minimum in the training loss, no real upper limit on this. Just need to make sure the training loss is low   and not improving much with more training.
-* Batch size is large enough to train efficiently, but small enough to fit the data in memory. No real â€œbestâ€ value here, depends on GPU   memory usually.
+* Batch size is large enough to train efficiently, but small enough to fit the data in memory. No hard and fast rule here, depends on GPU   memory usually.
 * Embedding dimension, significantly smaller than the size of the vocabulary, if you choose to use word embeddings
-* Hidden dimension (number of units in the hidden layers of the RNN) is large enough to fit the data well. Again, no real â€œbestâ€ value.
+* Hidden dimension (number of units in the hidden layers of the RNN) is large enough to fit the data well. Again, no hard and fast rule here.
 * n_layers (number of layers in a GRU/LSTM) is between 1-3.
 * The sequence length (seq_length) here should be about the size of the length of sentences you want to look at before you generate the   next word.
-* The learning rate shouldnâ€™t be too large because the training algorithm wonâ€™t converge. But needs to be large enough that training       doesnâ€™t take forever.
+* The learning rate shouldn't be too large because the training algorithm won't converge. But needs to be large enough that training       doesn't take forever.
 * The printed loss should decrease during training. The loss should reach a value lower than 3.5.
 * There is a provided answer that justifies choices about model size, sequence length, and other parameters.
 * The generator code generates a complete script.
