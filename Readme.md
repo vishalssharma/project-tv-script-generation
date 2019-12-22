@@ -142,7 +142,7 @@ This project has met the following specifications:
 
 ## Losses
 
-###Model :
+### Model :
 Training loss: 3.28
 
 ## Generated Script
