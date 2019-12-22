@@ -71,7 +71,7 @@ If you'd like to learn more about version control and using `git` from the comma
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/Vaidic/project-tv-script-generation.git
+git clone https://github.com/vishalssharma/project-tv-script-generation.git
 ```
 
 2. Create (and activate) a new environment, named `deep-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
