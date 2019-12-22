@@ -1,6 +1,6 @@
 # Generating_TV_Scripts
 
-This project was developed as a part of Udacity's Deep Learning Nanodegree. In this project, i have created a Recurrent neural network from scratch using pytorch. In this project, i generated my own Seinfeld TV scripts using RNNs. I used a Seinfeld dataset of scripts from 9 seasons. The Neural Network i built will generate a new, "fake" TV script.
+This project was developed as a part of Udacity's Deep Learning Nanodegree. In this project, i have created a Recurrent neural network from scratch using pytorch. In this project, I generated my own Seinfeld TV scripts using RNNs. I used a Seinfeld dataset of scripts from 9 seasons. The Neural Network i built will generate a new, "fake" TV script.
 
 ## Getting Started
 
